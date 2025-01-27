@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Console/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Console.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Console/1.0.0": {
+      "type": "project",
+      "path": "../Console/Console.csproj",
+      "msbuildProject": "../Console/Console.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Console >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jackoliver/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jackoliver/Documents/C#_projects/SiteDiary/diary/DiaryLibrary.csproj",
+      "projectName": "DiaryLibrary",
+      "projectPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/diary/DiaryLibrary.csproj",
+      "packagesPath": "/Users/jackoliver/.nuget/packages/",
+      "outputPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/diary/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jackoliver/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/jackoliver/Documents/C#_projects/SiteDiary/Console/Console.csproj": {
+              "projectPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/Console/Console.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
