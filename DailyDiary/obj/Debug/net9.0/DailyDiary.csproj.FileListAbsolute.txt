@@ -1,0 +1,12 @@
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/bin/Debug/net9.0/DailyDiary.deps.json
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/bin/Debug/net9.0/DailyDiary.dll
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/bin/Debug/net9.0/DailyDiary.pdb
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.AssemblyInfoInputs.cache
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.AssemblyInfo.cs
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.csproj.CoreCompileInputs.cache
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.sourcelink.json
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.dll
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/refint/DailyDiary.dll
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.pdb
+/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/ref/DailyDiary.dll

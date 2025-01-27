@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "DailyDiary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/DailyDiary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DailyDiary.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "DailyDiary/1.0.0": {
-      "type": "project",
-      "path": "../DailyDiary/DailyDiary.csproj",
-      "msbuildProject": "../DailyDiary/DailyDiary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "DailyDiary >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "/Users/jackoliver/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jackoliver/Documents/C#_projects/SiteDiary/Console/Console.csproj",
-      "projectName": "Console",
-      "projectPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/Console/Console.csproj",
+      "projectUniqueName": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/DailyDiary.csproj",
+      "projectName": "DailyDiary",
+      "projectPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/DailyDiary.csproj",
       "packagesPath": "/Users/jackoliver/.nuget/packages/",
-      "outputPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/Console/obj/",
+      "outputPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jackoliver/.nuget/NuGet/NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/DailyDiary.csproj": {
-              "projectPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/DailyDiary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
