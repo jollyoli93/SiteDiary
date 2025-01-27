@@ -1,1 +1,1 @@
-﻿Diary siteDiary = new SiteDiary("", "",)
+﻿Diary siteDiary = new SiteDiary(1, , "", "", "",)

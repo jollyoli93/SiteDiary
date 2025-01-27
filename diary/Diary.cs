@@ -5,7 +5,7 @@ public abstract class Diary
     private int id;
     private DateTime date_time;
     private string location;
-    private LogType log_type;
+    private LogType logType;
     
 
     public Diary (int id, DateTime dateTime, string location)
@@ -33,6 +33,6 @@ public abstract class Diary
         set { location = value; }
     }
 
-    public abstract string setLogType ( string log_type );
+    public abstract string setLogType ( string log );
 
 }

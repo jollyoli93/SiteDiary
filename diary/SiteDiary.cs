@@ -1,7 +1,7 @@
-using DiaryLibrary;
+namespace DiaryLibrary;
 
 public class SiteDiary : Diary {
-    public SiteDiary(int id, DateTime date_time, string entry_field) : base(id, date_time, entry_field)
+    public SiteDiary(int id, DateTime dateTime, string location) : base(id, date_time, location)
     {
     }
 

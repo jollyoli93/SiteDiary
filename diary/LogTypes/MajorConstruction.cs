@@ -1,3 +1,6 @@
+namespace DiaryLibrary;
+
+
 public MajorConstruction : LogType
 {
     private string worksType;
