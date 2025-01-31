@@ -10,3 +10,15 @@
 /Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/refint/DailyDiary.dll
 /Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/DailyDiary.pdb
 /Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/Debug/net9.0/ref/DailyDiary.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\bin\Debug\net9.0\DailyDiary.deps.json
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\bin\Debug\net9.0\DailyDiary.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\bin\Debug\net9.0\DailyDiary.pdb
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.AssemblyInfoInputs.cache
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.AssemblyInfo.cs
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.csproj.CoreCompileInputs.cache
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.sourcelink.json
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\refint\DailyDiary.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\DailyDiary.pdb
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\DailyDiary\obj\Debug\net9.0\ref\DailyDiary.dll

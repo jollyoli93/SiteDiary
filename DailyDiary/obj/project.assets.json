@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/jackoliver/.nuget/packages/": {}
+    "C:\\Users\\JackOliver\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/DailyDiary.csproj",
+      "projectUniqueName": "C:\\Users\\JackOliver\\Documents\\Code\\C#\\SiteDiary\\DailyDiary\\DailyDiary.csproj",
       "projectName": "DailyDiary",
-      "projectPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/DailyDiary.csproj",
-      "packagesPath": "/Users/jackoliver/.nuget/packages/",
-      "outputPath": "/Users/jackoliver/Documents/C#_projects/SiteDiary/DailyDiary/obj/",
+      "projectPath": "C:\\Users\\JackOliver\\Documents\\Code\\C#\\SiteDiary\\DailyDiary\\DailyDiary.csproj",
+      "packagesPath": "C:\\Users\\JackOliver\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JackOliver\\Documents\\Code\\C#\\SiteDiary\\DailyDiary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jackoliver/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\JackOliver\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
