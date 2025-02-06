@@ -25,7 +25,6 @@ public class MajorConstructionDiary : Diary {
         set { endTime = value; }
     }
 
-    // Optional: Override ToString for better display
     public override string toString()
     {
         return $"MajorConstruction: {WorksType}, Start: {StartTime}, End: {EndTime}";

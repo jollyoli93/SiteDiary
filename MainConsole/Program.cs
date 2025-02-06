@@ -1,8 +1,8 @@
 ﻿using System.Runtime.InteropServices.Marshalling;
 using DailyDiary;
 using MainConsole;
-
 using System;
+using Microsoft.IdentityModel.Tokens;
 
 class Program
 {
@@ -12,4 +12,7 @@ class Program
 
         logic.SelectOptions();
     }
+
+
+
 }

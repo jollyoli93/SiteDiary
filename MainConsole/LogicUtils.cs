@@ -1,5 +1,6 @@
 using System;
 using DailyDiary;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MainConsole;
 
@@ -27,17 +28,40 @@ public class LogicUtils
 
     private DateTime getUserDateAndTime () 
     {
-        Console.WriteLine("Enter date in format YYYY,MM,DD");
-        var date = Console.ReadLine();
+        Console.WriteLine("Enter date in format DD/MM/YYYY");
+        var dateInput = Console.ReadLine();
 
-        Console.WriteLine("Enter time in format 0,0,0");
-        var time = Console.ReadLine();
+        Console.WriteLine("Enter time in format HH:MM:SS (e.g. 14:30:00):");
+        var timeInput = Console.ReadLine();
 
-        var dateTime = date + "'" + time;
+            if (string.IsNullOrWhiteSpace(dateInput) || string.IsNullOrWhiteSpace(timeInput))
+            {
+                Console.WriteLine("Invalid Date/Time");
+                return DateTime.MinValue;
+            }
 
-        DateTime validDateTime;
-        DateTime.TryParse(dateTime, out validDateTime);
+        try 
+        {  
+            return ParseDateTime(dateInput, timeInput);
+        }
 
-        return validDateTime; 
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error parsing date/time: {ex.Message}");
+            return DateTime.MinValue;
+        }
+
+    }
+
+    public DateTime ParseDateTime (String dateInput,String time) {
+        int[] parsedDateTime =  dateInput.Split('/').Select(int.Parse).ToArray();
+        int[] parsedTime = time.Split(':').Select(int.Parse).ToArray();
+
+        Console.WriteLine(parsedDateTime[0] + " " +  parsedDateTime[1]  + " " + parsedDateTime[2]);
+
+        DateTime date = new DateTime(parsedDateTime[2], parsedDateTime[1], parsedDateTime[0], parsedTime[0], parsedTime[1], parsedTime[2] );
+
+        return date;
     }
 }
+
