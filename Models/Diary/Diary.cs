@@ -31,5 +31,5 @@ public abstract class Diary
         set { location = value; }
     }
 
-    public abstract string toString ();
+    public abstract string ToString ();
 }

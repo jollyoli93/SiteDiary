@@ -10,7 +10,9 @@ class Program
     {
         DiaryLogic logic = new DiaryLogic();
 
-        logic.SelectOptions();
+        logic.SelectMenu();
+
+
     }
 
 

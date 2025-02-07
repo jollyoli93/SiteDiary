@@ -8,22 +8,33 @@ public class LogicUtils
 {
     public Diary majorConsDiary (int id) 
     {
-        string location, description = null;
+        string location, activity, org, packages, trade = null;
         DateTime startTime, endTime;
+
+        Console.WriteLine("Enter Start Date");
+        startTime = getUserDateAndTime();
+        Console.WriteLine(startTime);
+
+        Console.WriteLine("Enter End Date");
+        endTime = getUserDateAndTime();
+        Console.WriteLine(endTime);
+
+        Console.WriteLine("Enter organisation");
+        org = Console.ReadLine();
+        
+        Console.WriteLine("Enter package");
+        packages = Console.ReadLine();        
+
+        Console.WriteLine("Enter trade");
+        trade = Console.ReadLine();
 
         Console.WriteLine("Enter location");
         location = Console.ReadLine();
 
-        Console.WriteLine("Enter description");
-        description = Console.ReadLine();
+        Console.WriteLine("Enter activity");
+        activity = Console.ReadLine();
 
-        startTime = getUserDateAndTime();
-        Console.WriteLine(startTime);
-
-        endTime = getUserDateAndTime();
-        Console.WriteLine(endTime);
-
-        return new MajorConstructionDiary(id, DateTime.UtcNow, location, description, startTime, endTime);
+        return new MajorConstructionDiary(id, DateTime.UtcNow, location, activity, startTime, endTime, org, trade, packages);
     }
 
     private DateTime getUserDateAndTime () 

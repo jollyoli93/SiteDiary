@@ -15,7 +15,7 @@ public class DiaryLogic
 
     int idCount = 0;
 
-    public void SelectOptions ()
+    public void SelectMenu ()
         {
             bool flag = true;
             do 
@@ -27,10 +27,8 @@ public class DiaryLogic
                 Console.WriteLine("------------------------");
                 Console.WriteLine();
                 Console.WriteLine("Please select from the below options:");
-                Console.WriteLine("[1] Major Construction Activity");
+                Console.WriteLine("[1] Site Diaries");
                 Console.WriteLine("[2] Issues & Delays");
-                Console.WriteLine("[3] Deliveries");
-                Console.WriteLine("[4] Discussions");
                 Console.WriteLine("[q] Quit");
 
 
@@ -39,7 +37,7 @@ public class DiaryLogic
                 switch (response)
                 {
                     case "1":
-                        logicUtil.majorConsDiary(idCount);
+                        SelectDiaryOption();
                         break;
                     case "q":
                         flag = false;
@@ -49,6 +47,61 @@ public class DiaryLogic
                         break;
                 }
             } while (flag);
+
+        Console.WriteLine(diary.ToString());
+
+    }
+
+        public void SelectDiaryOption ()
+        {
+            bool flag = true;
+            do 
+            {
+                string response = null;
+
+                Console.WriteLine("------------------------");
+                Console.WriteLine("     Site Diary");
+                Console.WriteLine("------------------------");
+                Console.WriteLine();
+                Console.WriteLine("Please select from the below options:");
+                Console.WriteLine("[1] Major Construction Activities");
+                Console.WriteLine("[2] Contractors on Site");
+                Console.WriteLine("[3] Discussions/Conversations");
+                Console.WriteLine("[4] Deliveries");
+                Console.WriteLine("[5] Plants");
+                Console.WriteLine("[q] Back");
+
+
+                response = Console.ReadLine();
+
+                switch (response)
+                {
+                    case "1":
+                        diary = logicUtil.majorConsDiary(idCount);
+                        break;
+                    case "2":
+                        //diary = logicUtil.majorConsDiary(idCount);
+                        break;
+                    case "3":
+                        //diary = logicUtil.majorConsDiary(idCount);
+                        break;
+                    case "4":
+                        //diary = logicUtil.majorConsDiary(idCount);
+                        break;
+                    case "5":
+                        //diary = logicUtil.majorConsDiary(idCount);
+                        break;
+                    case "q":
+                        flag = false;
+                        break;
+                    default:
+                        Console.WriteLine("No value");
+                        break;
+                }
+            } while (flag);
+
+        Console.WriteLine(diary.ToString());
+
     }
 }
 
