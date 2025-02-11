@@ -1,6 +1,7 @@
 namespace DailyDiary;
 
-public class MajorConstructionDiary : Diary {
+public class MajorConstructionDiary : Diary 
+{
     private DateTime startTime;
     private DateTime endTime;
     private string org;
