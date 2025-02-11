@@ -2,9 +2,9 @@ namespace DailyDiary;
 
 public abstract class Diary
 {
-    private int id;
-    private DateTime date_time;
-    private string location;
+    protected int id;
+    protected DateTime date_time;
+    protected string location;
     
     public Diary(int id, DateTime dateTime, string location)
     {
