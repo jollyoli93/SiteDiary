@@ -1,4 +1,3 @@
-using DailyDiary;
 
 namespace DailyDiary;
 public static class DiaryOptions

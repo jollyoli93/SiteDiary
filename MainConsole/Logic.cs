@@ -10,7 +10,7 @@ public class DiaryLogic
     // Diary siteDiary = new MajorConstructionDiary(1, DateTime.Now, "Manchester", "Excavation", DateTime.Now, DateTime.Now);
     //Console.WriteLine(siteDiary.toString());
     Diary diary = null;
-    DiaryOptions options = new DiaryOptions();
+    // DiaryOptions options = new DiaryOptions();
     int idCount = 0;
 
     public void SelectMenu ()
@@ -75,7 +75,7 @@ public class DiaryLogic
                 switch (response)
                 {
                     case "1":
-                        diary = options.majorConsDiary(idCount);
+                        diary = DiaryFactory.Create(DiaryMethod.MajorConstructionDiary, idCount);
                         break;
                     case "2":
                         diary = options.DiscussionOption(idCount);

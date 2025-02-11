@@ -1,0 +1,12 @@
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\bin\Debug\net9.0\Utils.deps.json
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\bin\Debug\net9.0\Utils.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\bin\Debug\net9.0\Utils.pdb
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.AssemblyInfoInputs.cache
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.AssemblyInfo.cs
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.sourcelink.json
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\refint\Utils.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\Utils.pdb
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Utils\obj\Debug\net9.0\ref\Utils.dll
