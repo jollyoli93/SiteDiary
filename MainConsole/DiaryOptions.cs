@@ -34,6 +34,31 @@ public class DiaryOptions
         return new MajorConstructionDiary(id, DateTime.UtcNow, location, activity, startTime, endTime, org, trade, packages);
     }
 
+     public Diary DiscussionOption (int id) 
+    {
+        String location, details = "";
+        DateTime startTime, endTime;
+        int numParticipants = 0;
+
+        Console.WriteLine("Enter Start Date");
+        startTime = getUserDateAndTime();
+        Console.WriteLine(startTime);
+
+        Console.WriteLine("Enter End Date");
+        endTime = getUserDateAndTime();
+        Console.WriteLine(endTime);
+
+        Console.WriteLine("Enter location");
+        location = Console.ReadLine();
+
+        Console.WriteLine("Enter details");
+        details = Console.ReadLine();
+
+        Console.WriteLine("Enter number of participants");
+        numParticipants = Int32.Parse(Console.ReadLine());
+
+        return new Discussions( id, location, DateTime.UtcNow, startTime, endTime, details, numParticipants);
+    }
     private DateTime getUserDateAndTime () 
     {
         Console.WriteLine("Enter date in format DD/MM/YYYY");
