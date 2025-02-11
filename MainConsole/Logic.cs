@@ -78,7 +78,7 @@ public class DiaryLogic
                         diary = options.majorConsDiary(idCount);
                         break;
                     case "2":
-                        //diary = logicUtil.majorConsDiary(idCount);
+                        diary = options.DiscussionOption(idCount);
                         break;
                     case "3":
                         //diary = logicUtil.majorConsDiary(idCount);
