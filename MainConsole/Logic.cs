@@ -75,19 +75,19 @@ public class DiaryLogic
                 switch (response)
                 {
                     case "1":
-                        diary = DiaryFactory.Create(DiaryMethod.MajorConstructionDiary, idCount);
+                        diary = DiaryFactory.Create(DiaryMethod.MajorDiary, idCount);
                         break;
                     case "2":
-                        diary = options.DiscussionOption(idCount);
+                        diary = DiaryFactory.Create(DiaryMethod.ContractorsOnSite, idCount);
                         break;
                     case "3":
-                        //diary = logicUtil.majorConsDiary(idCount);
+                        diary = DiaryFactory.Create(DiaryMethod.Discussions, idCount);
                         break;
                     case "4":
-                        //diary = logicUtil.majorConsDiary(idCount);
+                        diary = DiaryFactory.Create(DiaryMethod.Deliveries, idCount);
                         break;
                     case "5":
-                        //diary = logicUtil.majorConsDiary(idCount);
+                        diary = DiaryFactory.Create(DiaryMethod.Plant, idCount);
                         break;
                     case "q":
                         flag = false;

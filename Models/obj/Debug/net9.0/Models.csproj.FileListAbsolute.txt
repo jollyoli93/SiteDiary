@@ -10,3 +10,7 @@ C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\obj\Debug\net9.0\Models.d
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\obj\Debug\net9.0\refint\Models.dll
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\obj\Debug\net9.0\Models.pdb
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\obj\Debug\net9.0\ref\Models.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\obj\Debug\net9.0\Models.csproj.AssemblyReference.cache
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\bin\Debug\net9.0\Utils.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\bin\Debug\net9.0\Utils.pdb
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\Models\obj\Debug\net9.0\Models.csproj.Up2Date

@@ -1,4 +1,4 @@
-
+using Utils;
 namespace DailyDiary;
 public static class DiaryOptions
 {

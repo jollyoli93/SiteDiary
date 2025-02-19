@@ -1,6 +1,6 @@
 using System;
 
-namespace MainConsole;
+namespace Utils;
 
 public static class LogicUtils
 {

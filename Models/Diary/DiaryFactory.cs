@@ -11,9 +11,9 @@ public class DiaryFactory
     {
         switch(diaryType)
         {
-            case MajorDiary:
+            case DiaryMethod.MajorDiary:
                 return DiaryOptions.MajorDiaryOption(id);
-            case Discussions:
+            case DiaryMethod.Discussions:
                 return DiaryOptions.DiscussionOption(id);
             default:
                 throw new NotSupportedException(

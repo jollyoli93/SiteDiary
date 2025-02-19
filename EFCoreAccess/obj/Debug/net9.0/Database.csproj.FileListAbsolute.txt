@@ -14,3 +14,5 @@ C:\Users\JackOliver\Documents\Code\C#\SiteDiary\EFCoreAccess\obj\Debug\net9.0\Da
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\EFCoreAccess\obj\Debug\net9.0\refint\Database.dll
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\EFCoreAccess\obj\Debug\net9.0\Database.pdb
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\EFCoreAccess\obj\Debug\net9.0\ref\Database.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\EFCoreAccess\bin\Debug\net9.0\Utils.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\EFCoreAccess\bin\Debug\net9.0\Utils.pdb

@@ -67,3 +67,5 @@ C:\Users\JackOliver\Documents\Code\C#\SiteDiary\MainConsole\obj\Debug\net9.0\ref
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\MainConsole\obj\Debug\net9.0\MainConsole.pdb
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\MainConsole\obj\Debug\net9.0\MainConsole.genruntimeconfig.cache
 C:\Users\JackOliver\Documents\Code\C#\SiteDiary\MainConsole\obj\Debug\net9.0\ref\MainConsole.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\MainConsole\bin\Debug\net9.0\Utils.dll
+C:\Users\JackOliver\Documents\Code\C#\SiteDiary\MainConsole\bin\Debug\net9.0\Utils.pdb
