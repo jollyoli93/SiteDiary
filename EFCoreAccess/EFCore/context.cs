@@ -9,7 +9,7 @@ using DailyDiary;
 
     public class DiaryContext : DbContext
     {
-        public DbSet<Diary> DiaryEntries { get; set; }  // Renamed property to correct pluralization
+        public DbSet<Diary> DiaryEntries { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

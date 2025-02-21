@@ -1,15 +1,18 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace DailyDiary;
 
 public abstract class Diary
 {
-    protected int id;
-    protected DateTime date_time;
-    protected string location;
+    [Key]
+    private int id;
+    private DateTime date_time;
+    private string location;
     
     public Diary(int id, DateTime dateTime, string location)
     {
         this.id = id;
-        this.date_time = dateTime;
+        date_time = dateTime;
         this.location = location;
     }
 
